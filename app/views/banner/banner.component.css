@@ -1,0 +1,72 @@
+.banner{
+    height: 602px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+
+.banner-f1{
+    background-image: url(/img/f1_banner.png);
+}
+
+.banner-cs{
+    background-image: url(/img/cs_banner.png);
+}
+
+.banner-lol{
+    background-image: url(/img/lol_banner.png);
+}
+
+
+
+.conteudo-banner h1{
+    color: white;
+    font-family: "Titillium Web";
+    font-size: 80px;
+}
+
+.conteudo-banner p{
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.conteudo-banner a{
+    padding: 15px;
+    background-color: #C31616;
+    color: white;
+    font-family: "Roboto";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.conteudo-banner{
+    width: 497px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posicionamento-banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.jogos{
+    background-color: black;
+    height: 120px;
+}
+
+.posicionamento-jogos{
+    height: 100%;
+}
+
+.container{
+    max-width: 1200px;
+}
